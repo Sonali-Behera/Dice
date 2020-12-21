@@ -1,3 +1,6 @@
+let player1 = alert("Enter 1st player name:");
+let player2 = alert("Enter 2nd player name:");
+
 var randomNumber1 = (Math.floor(Math.random()*6))+1;
 var randomNumber2 = (Math.floor(Math.random()*6))+1;
 var randomDiceName  = "images/dice"+randomNumber1+".png";
@@ -10,8 +13,8 @@ if(randomDiceName===randomDiceName2)
 }
 else if (randomDiceName>randomDiceName2)
 {
-  document.querySelector("h1").innerHTML="🚩Play 1 wins!!!";
+  document.querySelector("h1").innerHTML="🚩" + player1 + " wins!!!";
 }
 else {
-  document.querySelector("h1").innerHTML="Play 2 wins🚩!!!";
+  document.querySelector("h1").innerHTML=player2 + " wins🚩!!!";
 }
