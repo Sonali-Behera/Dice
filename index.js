@@ -18,3 +18,5 @@ else if (randomDiceName>randomDiceName2)
 else {
   document.querySelector("h1").innerHTML=player2 + " wins🚩!!!";
 }
+document.getElementsByClassName("player1") = player1;
+document.getElementsByClassName("player2") = player2;
